@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Quality Predictor</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; 
+        }
+
+  
+        #video-background {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 50%;            
+             height: 100%;
+            z-index: -1000;
+        }
+
+       
+        .container {
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 50%; 
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            box-sizing: border-box;
+            display: flex; 
+            align-items: center;
+            justify-content: center; 
+            flex-direction: column; 
+            background-color: #edd5ad;
+        }
+
+
+        .container p {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .container button[type="submit"] {
+            width: 50%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 5%;
+            font-size: 1.1rem;
+            margin-top: 10px;
+            background-color: brown;
+            color: white;
+
+        }
+        
+        .container a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+
+        }
+
+        .container a:hover {
+            color: white; 
+        }
+
+         h1 
+         {
+            /*font-family: Forte;*/
+            font-weight: bold;
+            color: brown; 
+            margin: 0; 
+            padding: 20px 0; 
+            text-align: center;
+            text-shadow:
+                -1px -1px 1px rgba(255, 255, 255, 0.1),
+                2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: zoomInOut 3s ease-in-out infinite alternate;
+        }
+         @keyframes zoomInOut {
+            0% { transform: scale(1.2); }
+            100% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+  
+    <video autoplay muted loop id="video-background">
+        <source src="file:///C:/Users/admin/Downloads/45979-447087665_medium.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <h1>WINEQUASCORE</h1>
+        <p>
+            Discover a realm of vinous foresight where <strong>intuition</strong> and <strong>data</strong> combine to reveal <strong>enological excellence</strong>. Our virtual retreat combines <strong>algorithms</strong> and <strong>knowledge</strong> to forecast <strong>wine quality</strong>, pointing you in the direction of magnificent encounters and unexplored delights.
+        </p>
+        <p>
+            Explore our digitally curated vineyard, where future stars and hidden gems can be found, handpicked by digital sommeliers. Savor the excitement of foresight as <strong>predictive models</strong> uncover the best wines, transforming your tasting experience from amateur to expert.
+        </p>
+        <p>
+            Become a part of an elite group that is welcoming the next wave of wine enjoyment. With each glass being a testament to enjoyment and comprehension, our platform, <strong>WineQuaScore</strong>, promises to deepen your understanding. We toast to a new era of vinous enlightenment in which pleasure and discovery await with every sip.
+        </p>
+        <button type="submit"><a href="file:///F:/Wine_project.html">Start</a></button>
+    </div>
+</body>
+</html>
